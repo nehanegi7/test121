@@ -1,0 +1,143 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+}
+
+.mainpage{
+  width: 100%;
+  height: 96vh;
+ /* border: 2px solid black;*/
+  display: flex;
+  flex-direction: row;
+}
+.image{
+  height: 96vh;
+  width:55%;
+  display: flex;
+  /*border: 1px solid black;*/
+}
+.bird{
+  position: relative;
+  height:96vh;
+  width:100%;
+}
+
+.whitebird{
+
+  position: absolute;
+  left:18%;
+  top:30%;
+  height:39vh;
+  width:26%;
+
+}
+
+.enter{
+  display: flex;
+  flex-direction: column;
+  
+  justify-content:center;
+}
+
+.enter h1{
+  font-size:3rem;
+  padding-left: 25px;
+  
+}
+.enter h5{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size:1.5rem;
+  padding-left:25px;
+}
+
+.enter button{
+  width: 250px;
+  height: 30px;
+  border-radius: 20px;
+  margin: 7px;
+  color: #ffffff;
+  font-size: 0.7rem;
+  background-color: rgb(29, 161, 242);
+  border:none;
+  margin-left:25px;
+  cursor: pointer;
+}
+
+.enter img{
+  width:40px;
+  height:30px;
+  margin-left:25px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+/************log in************************/
+
+.login{
+  width: 100%;
+  height: 96vh;
+  /*border: 1px solid black;*/
+  display: flex;
+justify-content: center;
+
+}
+.log_in{
+  height:80vh;
+  width: 25%;
+ /* border: 1px solid rgb(34, 33, 33);*/
+  padding:10px;
+}
+.log_in h2{
+  margin-bottom: 10px;
+}
+.log_in img{
+width:30px;
+height:25px;
+margin-bottom: 15px;
+}
+
+form input{
+  margin-bottom:15px;
+}
+input[type='text']
+{
+  width: 90%;
+  height: 7vh;
+  margin-top: 10px;
+  border:1px solid rgb(69, 71, 71);
+  border-radius: 4px;
+  font-size: 0.7rem;
+}
+
+input[type='Password']
+{
+  width: 90%;
+  height: 7vh;
+  margin-top: 10px;
+  border:1px solid rgb(78, 79, 80);
+  border-radius: 4px;
+  font-size: 0.7rem;
+}
+
+input:active
+{
+  width: 90%;
+  height: 7vh;
+  border:4px solid rgb(235, 121, 14);
+  border-radius:4px;
+  font-size: 0.7rem;
+}
+
+button{
+  width: 90%;
+  height: 7vh;
+  border: none;
+  margin-top: 10px;
+  background-color: rgb(29, 161, 242);
+  border-radius:38px;
+  color: #ffffff;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
