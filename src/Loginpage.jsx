@@ -36,8 +36,8 @@ function Loginpage() {
         console.log(items.Password);       //value access here(password)
        // var item = [items];
         //console.log('new item checked',item);
+        
         //remove data from local storage
-
     // localStorage.removeItem('detail');
 
         //localStorage.setItem('USERNAME',JSON.stringify(inputData));
