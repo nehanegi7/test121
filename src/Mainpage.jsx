@@ -5,8 +5,8 @@ import bluebird from './bluebird.png'
 import whitebird from './whitebird.png' 
 import './App.css';
 
-import Mainpage from './Mainpage'
-import Loginpage from './Loginpage';
+// import Mainpage from './Mainpage'
+// import Loginpage from './Loginpage';
 
 //import {RouteChange} from 'react-router-dom';
 

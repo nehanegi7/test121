@@ -37,16 +37,4 @@ const personDeatail = {
   gender: "female",
 };
 console.log(personDeatail);
-
-const personName={
-
-}
-
-function spreadoperator() {
-  return (
-    <div></div>
-  )
-
-};
-
 export default spreadoperator;

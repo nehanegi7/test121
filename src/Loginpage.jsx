@@ -26,9 +26,9 @@ function Loginpage() {
         console.log("new value",nameobj);// 2 type of destructuring array,  object
         localStorage.setItem('detail', JSON.stringify(inputData));
      
-         let a=8; 
-         var a=6;
-         console.log("value of a",a)
+        //  let a=8; 
+        //  var a=6;
+        //  console.log("value of a",a)
         //get data from local storage
         var items = JSON.parse(localStorage.getItem('detail'));
         console.log('items checked',items);
@@ -38,7 +38,7 @@ function Loginpage() {
         //console.log('new item checked',item);
         //remove data from local storage
 
-    localStorage.removeItem('detail');
+    // localStorage.removeItem('detail');
 
         //localStorage.setItem('USERNAME',JSON.stringify(inputData));
         //localStorage.setItem('EMAIL', JSON.stringify(inputEmail));
@@ -60,7 +60,7 @@ function Loginpage() {
                     value={inputData.Password} onChange={(e) => setinputData({ ...inputData, Password: e.target.value })}
                 />
                 <button onClick={newFunction}>Sign up</button>
-            </div> on
+            </div> 
         </div>
     )
 }
